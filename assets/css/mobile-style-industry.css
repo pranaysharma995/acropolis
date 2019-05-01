@@ -1,0 +1,351 @@
+/* styling for smalll mobile device */
+
+@media only screen and  (max-width:420px)
+{
+    .desktop-version{
+        display:none;
+    }
+    .mobile-version{
+        display:block;
+    }
+    .top-nav.mobile-version{
+        overflow-y:auto;
+        height:auto;
+        max-height:100%;
+    }
+    .loading-container-speed{
+        padding:55% 15% !important;
+    }
+    .logo{
+        padding:10px 15px;
+    }
+    .hero-banner-title{
+        font-size:20px;
+    }
+     .hero-banner-title-box h3{
+         text-align:center;
+     }
+    .hero-banner-paragraph{
+        font-size:18px;
+    }
+    .get-in-touch, .our-services {
+    padding: 8px 10px;
+    font-size: 12px;
+}
+.get-in-touch{
+    margin-left:0px;
+}
+.hero-banner .col-md-10{
+    padding:50px 0px;
+}
+.services_bg1{
+    min-height:880px;
+        background-attachment:scroll;
+}
+.explore{
+    display:none;
+}
+.our-stats-container{
+    min-height:195px;
+}
+.section-image-title h3{
+    font-size:5em !important;
+}
+.footer-logo{
+    padding-left:0px;
+    text-align:center;
+}
+.social-connection-container{
+    float:left;
+    clear:both;
+    width:100%;
+}
+.footer-social-list i.fa.fa-facebook{
+    padding:8px 12px;
+}
+.footer-social-list i.fa.fa-twitter{
+    padding:8px 9px;
+}
+.footer-social-list i.fa.fa-instagram{
+    padding:8px 10px;
+}
+.footer-social-list i.fa.fa-pinterest{
+    padding:8px 9px;
+}
+.footer-social-list i.fa.fa-linkedin{
+    padding:8px 10px;
+}
+.footer-social-list i.fa.fa-youtube{
+    padding:8px 9px;
+}
+.copyright-text{
+    text-align:center;
+}
+.footer-social-list-container{
+    margin:25px 0px;
+}
+.space-margin{
+    text-align:center;
+}
+.footer-social-list li a i{
+    font-size:16px;
+}
+.email-section{
+    float:left;
+    width:100%;
+    clear:both;
+}
+
+
+}
+
+
+
+/* **** styling which is common in big moible and small mobile ***** */
+@media only screen and (max-width:900px)
+{
+    
+     .mobile-version{
+         display:block;
+     } 
+     .desktop-version{
+         display:none;
+     }
+    .footer-container{
+    background-image:url(../img/banner/footer-background-mobile.png);
+}
+.footer-link-title{
+    width:fit-content;
+    margin:0 auto;
+}
+.footer-link-title::after{
+    left:25% !important;
+}
+.footer-logo img{
+    width:160px;
+    height:auto;
+}
+.address-button{
+    width:100%;
+    max-width:100%;
+    margin:0px 0px;
+}
+
+.footer-subscribe-container{
+    padding:0px 10px;
+    margin:0px 0px;
+}
+.footer-subscribe-button {
+    top: 0;
+    right: 11px;
+    width: 30%;
+}
+.footer-subscribe{
+    margin-top:40px;
+}
+.footer{
+    padding:30px 0px;
+    text-align:center;
+        background-color:rgba(0,0,0,0.9);
+}
+.footer-pagelink{
+    padding:0px 0px;
+}
+.copyright-social{
+    display:inline-block;
+    text-align:center;
+    padding:50px 20px;
+}
+.hero-banner{
+    min-height:50vh;
+    margin-top:30px;
+}
+    .hero-banner-text-container{
+        width:100%;
+        height:50%;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+    }
+    .hero-banner-title-box,.service-sample-link .section-heading,.stats-section-number,.stats-section-heading,#domain-expertise,.service-overview-image,.tab-section,.button-content,#capabalities,#our-solution,.why-acropolis,.related-service-block-container{
+       padding:0px 0px;
+    }
+    .brand-slider-container > .col-md-6{
+        padding:0px 30px;
+    }
+         .service-sample-link{
+         padding:40px 0px !important;
+         min-height:auto !important;
+     }
+     .service-sample-link::after,.domain-expertise-heading::after{
+         color:#1fbba6;
+     }
+    .hero-banner-title-box h3,.start-project-heading,.service-sample-link .section-heading,.stats-section-number,.stats-section-heading,.copyright-text,.capabilities-text p,.application-services-container h3,.industry-overview-section,.wearable-container-mobile-title{
+        text-align:center;
+    }
+         .hero-banner-title-box h3,.service-page-title,.service-title,#domain-expertise .section-title,.service-title,.section-title,.section-heading,.service-portfolio-title,.hero-banner-title,.service-title,.stats-section-number, .application-services-container h3, .programming-services-container h3,.basic-point-container h5,.industry-overview .section-title,.industries-software h3, .industries-provider h3,.solution-title,.insights-client h1{
+         font-size:25px;
+         line-height:35px;
+     }
+     
+     /*  ************* styling the services section ************* */
+     .service-sample-description >.col-md-12{
+         min-height:auto;
+         padding-top:0px;
+     }
+     .explore-more-button-container,.php-solution,.basic-point-container,.industry-overview-container .industries-software,.industry-overview-container .industries-provider,.wearable-solution-box-container.type-one,.insight-arrow-button-container{
+         position:static;
+     }
+     .explore-more-button-container > a,.item .service-portfolio-description,.capabilities-text,.application-services-container,.php-solution,.basic-point-container,.industry-overview .healthcare-components,.industry-overview .healthcare-components.last-component, .industry-overview .col-md-5.flex, .wearable-solution-box-container.type-one,.related-service-block, .explore-more-button-container{
+         width:100%;
+         
+     }
+     .related-service-block{
+         padding-bottom:0px;
+     }
+     .related-service-block:last-child{
+         padding-bottom:30px;
+     }
+     
+     /* ****** styling the domain expertise section **** */
+     
+     .owl-carousel .owl-item .manufacture img{
+         width:60px;
+         height:60px;
+     }
+     /* ****** styling our stats section ****** */
+     .stats-section,.domain-expertise-heading{
+         background-color:#1fbba6;
+     }
+     .stats-section,.domain-expertise-heading,.footer-social-list,.capabilities-text,.capabilities-text p,.capabilities-text h3,.row.tab-content,.wearable-box,.wearable-app-solution-container > .col-md-6 .col-md-12{
+         padding:20px 0px;
+     }
+     .application-services-container,.php-solution,.basic-point-container,.why-acropolis .col-md-3,.industry-overview-section,.industries-software .bg-blue,.industries-software .third-party-container,.industries-provider,.client-content-box,.wearable-app-solution-container > .col-md-6{
+         padding:30px;
+     }
+     .stats-section-number,.stats-section-heading,.domain-expertise-heading{
+         color:#fff;
+     }
+     .stats-section-heading,.related-service-title,.application-services-container p,.programming-services-container ,.why-acropolis .col-md-3 p,.solution-description,.insights-client p,.insight-divide  h3{
+        font-size:15px;
+        line-height:25px;
+     }
+     .related-service-title{
+         padding-top:5px;
+     }
+     
+    .start-project-heading h3{
+        line-height:30px;
+    }
+    
+    /* ******** styling the portfolio section ** */
+    .item .service-portfolio-description,.service-overview-image,.row.tab-content,.industry-overview .healthcare-components,.industry-overview .healthcare-components.last-component,.wearable-app-solution-container{
+        margin:0px 0px;
+    }
+    .application-services-container h3{
+        margin-bottom:30px;
+    }
+    .item .portfolio-image img{
+       width:100%;
+       height:300px;
+       object-fit:cover;
+       max-width:100%;
+       transform:translateX(-30px);
+       
+   }
+    
+    
+    .start-project-heading{
+        min-height:30vh;
+    }
+    .start-project-button{
+        top:68%;
+        right:50%;
+        transform:translateX(50%);
+        -webkit-transform:translateX(50%);
+        -moz-transform:translateX(50%);
+    }
+    .service-page-title{
+        margin-bottom:0px;
+    }
+    .slider-point{
+        left:50%;
+        width:50%;
+        top:80%;
+    }
+    #myCarouselClientSpeak .item{
+        min-height:60vh;
+    }
+    .clutch-review-button{
+    margin-bottom:10px;
+}
+
+    .web-services{
+    font-size:3.5em !important;
+    padding:30% 0%;
+}
+#client-speaks > .col-md-6
+{
+    padding:0 30px;
+}
+.insights-client{
+    padding:0px 0px;
+}
+.clutch-widget{
+    padding:0px !important;
+    margin-right:-50px !important;
+}
+.cookies-policy,.more-detail,.allow-all{
+    margin-bottom:5px;
+}
+/* ******** styling the healthcare page ***** */
+
+.industry-overview .healthcare-components.last-component{
+    max-width:100%;
+}
+.industry-overview .healthcare-components{
+    min-height:1px;
+    padding-bottom:30px;
+}
+.related-title{
+    letter-spacing:1px;
+}
+
+
+/* ************ styling the wearbale solution box ******************* */
+
+.wearable-solution-box-container.type-one,.client-content-box{
+    height:auto;
+}
+.type-one .wearable-box,.type-two .wearable-box,.type-three .wearable-box,.type-four .wearable-box, .type-five .wearable-box{
+    width:25%;
+    flex-basis:25%;
+}
+.insight-arrow-button-container{
+    margin:0 auto;
+    width:100px;
+    height:50px;
+}
+.insight-arrow-button-container div.left, .insight-arrow-button-container div.right{
+    width:50%;
+    padding:10px;
+}
+.healthcare-component-title{
+    font-size:18px;
+    line-height:30px;
+    min-height:50px;
+}
+.explore-more-button-container:hover .explore-more-button::after {
+    color: #fff;
+    width:0%;
+    text-decoration: none;
+}
+
+}
+@media only screen and  (max-width:380px)
+{
+    .footer-social-list li a i{
+    font-size:14px !important;
+}
+}

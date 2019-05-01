@@ -1,0 +1,80 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: March 5, 2019 9:15 am
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.48
+WORDPRESS:	4.9.9
+PHP INFO:	7.1.24 | SAPI: cgi-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (1024M default) 
+MEMORY STACK: 22MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+FILTERED: [] 
+RESPONSE: Ran from /usr/bin/mysqldump 
+TABLES: total:13 | filtered:0 | create:13 
+SQL CREATED: 20190305_acropolisinfotech_78de4227cca60a329741_20190305091521_database.sql 
+SQL FILE SIZE: 506.68KB (518841) 
+SQL FILE TIME: 2019-03-05 09:15:30 
+SQL RUNTIME: 0.09 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /home3/acropoli/public_html/blog 
+ARCHIVE FILE: 20190305_acropolisinfotech_78de4227cca60a329741_20190305091521_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	38.79MB 
+STATS:	Dirs 173 | Files 1,595 
+SQL ADDED: 20190305_acropolisinfotech_78de4227cca60a329741_20190305091521_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 1768
+    [filename] => /home3/acropoli/public_html/blog/wp-snapshots/tmp/20190305_acropolisinfotech_78de4227cca60a329741_20190305091521_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 17.98MB 
+ARCHIVE RUNTIME: 3.46 sec. 
+MEMORY STACK: 22MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preparing for use 
+PACK SIZE:  
+Template parsed with new data 
+Complete [/home3/acropoli/public_html/blog/wp-snapshots/tmp/20190305_acropolisinfotech_78de4227cca60a329741_20190305091521_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 506.68KB 
+Installer File: 474.19KB 
+Archive File: 17.98MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 3.81 sec.
+PEAK PHP MEMORY USED: 22MB
+DONE PROCESSING => 20190305_acropolisinfotech March 5, 2019 9:15 am
+ 

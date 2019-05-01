@@ -1,0 +1,611 @@
+/* styling for smalll mobile device */
+
+@media only screen and  (max-width:420px)
+{
+    .desktop-version{
+        display:none;
+    }
+    .mobile-version{
+        display:block;
+    }
+    .top-nav.mobile-version{
+        overflow-y:auto;
+        height:auto;
+        max-height:100%;
+    }
+    .loading-container-speed{
+        padding:55% 15% !important;
+    }
+    .logo{
+        padding:10px 15px;
+    }
+    .hero-banner-title{
+        font-size:20px;
+    }
+     .hero-banner-title-box h3{
+         text-align:center;
+     }
+    .hero-banner-paragraph{
+        font-size:18px;
+    }
+    .get-in-touch, .our-services {
+    padding: 8px 10px;
+    font-size: 12px;
+}
+.get-in-touch{
+    margin-left:0px;
+}
+.hero-banner .col-md-10{
+    padding:50px 0px;
+}
+.services_bg1{
+    min-height:880px;
+        background-attachment:scroll;
+}
+.service-container{
+    height:880px;
+}
+.col-md-9.desc>p{
+    max-height:265px;
+    min-height:105px;
+    text-align:center;
+}
+.our-stats-container img.left,.our-stats-container img.right{
+    width:30px;
+}
+
+#myCarouselServicesMobile .item img{
+    width:100%;
+    height:195px;
+    margin:0 auto;
+    
+}
+.explore{
+    display:none;
+}
+.our-stats-container > .col-md-12{
+    padding:0px 10%;
+}
+.our-stats-container a.left{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.our-stats-container a.right{
+    position:absolute;
+    top:0;
+    right:0;
+}
+.our-stats-container a.right,.our-stats-container a.left{
+    z-index:5;
+    width:40px;
+    height:100%;
+}
+.our-stats-container a.right img,.our-stats-container a.left img{
+    width:100%;
+    height:100%;
+}
+.industry-list-container{
+    padding:10px 5px;
+    text-align:center;
+}
+.industry-title,.industry-description{
+    padding-left:0px;
+}
+.our-stats-container{
+    min-height:195px;
+}
+.section-image-title h3{
+    font-size:5em !important;
+}
+.industry-we-serve .section-image-title{
+    top:170px;
+    color:#333;
+    left:0px !important;
+    z-index:0;
+}
+.footer-logo{
+    padding-left:0px;
+    text-align:center;
+}
+.social-connection-container{
+    float:left;
+    clear:both;
+    width:100%;
+}
+.skype,.hangout,.whatsapp{
+    left:0px;
+}
+.pdt-60{
+    padding-top:10px;
+}
+.contact-detail .col-md-3 .whatsapp-container{
+    padding:30px 0px;
+}
+.footer-social-list i.fa.fa-facebook{
+    padding:8px 12px;
+}
+.footer-social-list i.fa.fa-twitter{
+    padding:8px 9px;
+}
+.footer-social-list i.fa.fa-instagram{
+    padding:8px 10px;
+}
+.footer-social-list i.fa.fa-pinterest{
+    padding:8px 9px;
+}
+.footer-social-list i.fa.fa-linkedin{
+    padding:8px 10px;
+}
+.footer-social-list i.fa.fa-youtube{
+    padding:8px 9px;
+}
+.copyright-text{
+    text-align:center;
+}
+.footer-social-list-container{
+    margin:25px 0px;
+}
+.contact-form{
+    display:none;
+}
+.lets-talk{
+    padding:50px 20px;
+    width:100%;
+}
+.lets-talk .section-description{
+    font-size:14px !important;
+}
+.contact-detail{
+    float:left;
+    padding-left:0px !important;
+    padding-top:50px;
+}
+.contact-detail > .col-md-7 {
+    width:100%;
+}
+.contact-detail .col-md-3.col-xs-6{
+    padding:0px 0px !important;
+}
+.contact-detail .col-md-3.col-xs-6 .col-md-12{
+    padding:30px 10px !important;
+
+}
+.contact-us a.get-in-touch {
+    bottom: -29px;
+    left: 10%;
+    right:10%;
+    padding: 15px 30px;
+    font-size: 15px;
+}
+.served-country img {
+    display:none;
+}
+.industry-icon{
+    padding:2px 5px;
+}
+.testimonial-box-container .testimonial-box {
+    padding: 30px 40px;
+    display: inline-block;
+    width:300px;
+    min-height: 400px;
+    margin: 5px 50px;
+    padding:30px 10px;
+}
+.testimonial-container{
+    left:0px;
+}
+.testimonial-container,.testimonial-box-container{
+    min-height:420px;
+}
+
+.testimonial-arrow-container.right ,.testimonial-arrow-container.left{
+    width: 40px;
+    height: 100%;
+    background-color: transparent !important;
+    display:block;
+}
+.service-list-container-list{
+    white-space:nowrap;
+   overflow:hidden;
+}
+#services.row.services_bg1 .service-container div.col-md-12 >ul>li {
+    display:inline-block;
+    margin:0% 35%;
+}
+.service-container >.col-md-3 img,.service-container >.col-md-3 {
+    display:none;
+}
+.col-md-9.desc{
+    padding:0px 10px;
+    text-align:center;
+}
+.col-md-9>p{
+    min-height:100px;
+}
+.space-margin{
+    text-align:center;
+}
+.happy-clients .section-description{
+    font-size:25px;
+    padding-bottom:30px;
+    line-height:35px;
+}
+.footer-social-list li a i{
+    font-size:16px;
+}
+.email-section{
+    float:left;
+    width:100%;
+    clear:both;
+}
+.country-name:nth-child(2), .country-name:nth-child(3),.country-name:nth-child(4){
+    margin-top:5px;
+    
+}
+/* **********************styling the enquire page *************************** */
+.inquire-form-container-in-inquire-page{
+    padding:10px 0px;
+}
+.enquire-container.mobile-version button{
+    position:static !important;
+}
+
+/* ******************* styling the our services page ******************* */
+.hire-developer .col-md-4{
+    margin:15px 0px;
+}
+
+
+
+}
+
+/* ********* styling whihc are only for bg moible ** */
+@media only screen and (min-width:421px) and (max-width:900px)
+{
+    .footer-subscribe{
+        
+    }
+}
+
+
+/* **** styling which is common in big moible and small mobile ***** */
+@media only screen and (max-width:900px)
+{
+    
+     .mobile-version{
+         display:block;
+     } 
+     .desktop-version{
+         display:none;
+     }
+    .footer-container{
+    background-image:url(../img/banner/footer-background-mobile.png);
+}
+.footer-link-title{
+    width:fit-content;
+    margin:0 auto;
+}
+.footer-link-title::after{
+    left:25% !important;
+}
+.footer-logo img{
+    width:160px;
+    height:auto;
+}
+.address-button{
+    width:100%;
+    max-width:100%;
+    margin:0px 0px;
+}
+
+.footer-subscribe-container{
+    padding:0px 10px;
+    margin:0px 0px;
+}
+.footer-subscribe-button {
+    top: 0;
+    right: 11px;
+    width: 30%;
+}
+.footer-subscribe{
+    margin-top:40px;
+}
+.footer{
+    padding:30px 0px;
+    text-align:center;
+        background-color:rgba(0,0,0,0.9);
+}
+.footer-pagelink{
+    padding:0px 0px;
+}
+.copyright-social{
+    display:inline-block;
+    text-align:center;
+    padding:50px 20px;
+}
+.hero-banner{
+    min-height:50vh;
+    margin-top:30px;
+}
+    .hero-banner-text-container{
+        width:100%;
+        height:50%;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+    }
+    .hero-banner-title-box,.service-sample-link .section-heading,.stats-section-number,.stats-section-heading,#domain-expertise,.service-overview-image,.tab-section,.button-content,#capabalities,#our-solution,.why-acropolis,.related-service-block-container{
+       padding:0px 0px;
+    }
+    .brand-slider-container > .col-md-6{
+        padding:0px 30px;
+    }
+         .service-sample-link{
+         padding:40px 0px !important;
+         min-height:auto !important;
+     }
+     .service-sample-link::after,.domain-expertise-heading::after{
+         color:#1fbba6;
+     }
+    .hero-banner-title-box h3,.start-project-heading,.service-sample-link .section-heading,.stats-section-number,.stats-section-heading,.copyright-text,.capabilities-text p,.application-services-container h3,.wearable-container-mobile-title{
+        text-align:center;
+    }
+         .hero-banner-title-box h3,.service-page-title,.service-title,#domain-expertise .section-title,.service-title,.section-title,.section-heading,.service-portfolio-title,.hero-banner-title,.service-title,.stats-section-number, .application-services-container h3, .programming-services-container h3,.basic-point-container h5,.solution-title,.insights-client h1{
+         font-size:25px;
+         line-height:35px;
+     }
+     
+     /*  ************* styling the services section ************* */
+     .service-sample-description >.col-md-12{
+         min-height:auto;
+         padding-top:0px;
+     }
+     .explore-more-button-container,.php-solution,.basic-point-container,.insight-arrow-button-container{
+         position:static;
+     }
+     .explore-more-button-container > a,.item .service-portfolio-description,.capabilities-text,.application-services-container,.php-solution,.basic-point-container,.section-paragraph,.related-service-block{
+         width:100%;
+         
+     }
+          .related-service-block{
+         padding-bottom:0px;
+     }
+     .related-service-block:last-child{
+         padding-bottom:30px;
+     }
+     
+     /* ****** styling the domain expertise section **** */
+     
+     .owl-carousel .owl-item .manufacture img{
+         width:60px;
+         height:60px;
+     }
+     /* ****** styling our stats section ****** */
+     .stats-section,.domain-expertise-heading{
+         background-color:#1fbba6;
+     }
+     .stats-section,.domain-expertise-heading,.footer-social-list,.capabilities-text,.capabilities-text p,.capabilities-text h3,.row.tab-content,.wearable-box,.wearable-app-solution-container > .col-md-6 .col-md-12{
+         padding:20px 0px;
+     }
+     .application-services-container,.php-solution,.basic-point-container,.why-acropolis .col-md-3,.client-content-box,.wearable-app-solution-container > .col-md-6{
+         padding:30px;
+     }
+     .stats-section-number,.stats-section-heading,.domain-expertise-heading{
+         color:#fff;
+     }
+     .stats-section-heading,.related-service-title,.application-services-container p,.programming-services-container ,.why-acropolis .col-md-3 p,.section-paragraph,.solution-description,.insights-client p,.insight-divide h3{
+        font-size:15px;
+        line-height:25px;
+     }
+     .related-service-title{
+         padding-top:5px;
+     }
+     
+    .start-project-heading h3{
+        line-height:30px;
+    }
+    
+    /* ******** styling the portfolio section ** */
+    .item .service-portfolio-description,.service-overview-image,.row.tab-content,.wearable-app-solution-container{
+        margin:0px 0px;
+    }
+    .application-services-container h3{
+        margin-bottom:30px;
+    }
+    .item .portfolio-image img{
+       width:100%;
+       height:300px;
+       object-fit:cover;
+       max-width:100%;
+       transform:translateX(-30px);
+       
+   }
+    
+    
+    .start-project-heading{
+        min-height:30vh;
+    }
+    .start-project-button{
+        top:68%;
+        right:50%;
+        transform:translateX(50%);
+    }
+    .service-page-title{
+        margin-bottom:0px;
+    }
+    .slider-point{
+        left:50%;
+        width:50%;
+        top:80%;
+    }
+    #myCarouselClientSpeak .item{
+        min-height:60vh;
+    }
+    .clutch-review-button{
+    margin-bottom:10px;
+}
+
+    .web-services{
+    font-size:3.5em !important;
+    padding:30% 0%;
+}
+#client-speaks > .col-md-6
+{
+    padding:0 30px;
+}
+.insights-client{
+    padding:0px 0px;
+}
+.clutch-widget{
+    padding:0px !important;
+    margin-right:-50px !important;
+}
+.cookies-policy,.more-detail,.allow-all{
+    margin-bottom:5px;
+}
+
+/* ******** business consunting page ******** */
+
+.sub-page-heading{
+    margin:0px;
+}
+
+.service-overview-image{
+    background-size:contain;
+    height:100px;
+    background-repeat:no-repeat;
+}
+.related-title{
+    letter-spacing:1px;
+}
+.capabilities-button{
+    left:auto;
+    right:0px;
+}
+
+/*** ******************** Web Developmemt subpages ****** */
+#our-solution > .col-md-12{
+    padding-left:0px;
+    height:500px;
+}
+.php-solution-box-container{
+    width:500%;
+}
+.php-solution-box{
+    width:97vw;
+    padding:30px 30px;
+}
+.php-solution-box:hover{
+    padding-top:30px;
+    background-color:#fff;
+}
+.scroll-left{
+    left:-97vw;
+}
+.php-solution-box p{
+    opacity:1;
+}
+.php-solution-button-container {
+    width:20vw;
+    height:10vh;
+    left:30px;
+}
+.php-solution,.basic-point-container,.why-acropolis,.client-content-box{
+    height:auto;
+}
+
+.basic-point-container h3,.basic-point-container h5{
+    margin-bottom:10px;
+}
+
+
+
+/* ************** styling the wearable section * **************** */
+
+.wearable-solution-box-container.type-one,.wearable-solution-box-container.type-two,.wearable-solution-box-container.type-three,.wearable-solution-box-container.type-four,.wearable-solution-box-container.type-five{
+    height:auto;
+    width:100%;
+    position:static;
+}
+.type-one .wearable-box,.type-two .wearable-box,.type-three .wearable-box,.type-four .wearable-box, .type-five .wearable-box{
+    width:25%;
+    flex-basis:25%;
+}
+.insight-arrow-button-container{
+    margin:0 auto;
+    width:100px;
+    height:50px;
+}
+.insight-arrow-button-container div.left, .insight-arrow-button-container div.right{
+    width:50%;
+    padding:10px;
+}
+.explore-more-button-container:hover .explore-more-button::after {
+    color: #fff;
+    text-decoration: none;
+    width:0%;
+}
+}
+@media only screen and  (max-width:380px)
+{
+    .footer-social-list li a i{
+    font-size:14px !important;
+}
+}
+@media only screen and (min-width:1024px) and (max-width:1280px)
+{
+    .our-stats-container.desktop-version .col-md-8 img {
+    height: 370px !important;
+}
+}
+
+@media only screen and (min-width:1281px) and (max-width:1366px)
+{
+  .our-stats-container.desktop-version .col-md-8 img {
+    height: 407px !important;
+}
+}
+@media only screen and (min-width:1367px) and (max-width:1440px)
+{
+  .our-stats-container.desktop-version .col-md-8 img {
+    height: 407px !important;
+}
+}
+@media only screen and (min-width:1441px) and (max-width:1530px)
+{
+  .our-stats-container.desktop-version .col-md-8 img {
+    height: 452px !important;
+}
+}
+@media only screen and (min-width:1531px) and (max-width:1600px)
+{
+  .our-stats-container.desktop-version .col-md-8 img {
+    height: 459px !important;
+}
+}
+@media only screen and (min-width:1601px) and (max-width:1700px)
+{
+  .our-stats-container.desktop-version .col-md-8 img {
+    height: 480px !important;
+}
+}
+@media only screen and (min-width:1701px) and (max-width:1800px)
+{
+  .our-stats-container.desktop-version .col-md-8 img {
+    height: 509px !important;
+}
+}
+@media only screen and (min-width:1801px) and (max-width:1930px)
+{
+  .our-stats-container.desktop-version .col-md-8 img {
+    height: 543px !important;
+}
+}
+@media only screen and (min-width:1931px)
+{
+  .our-stats-container.desktop-version .col-md-8 img {
+    height: 611px !important;
+}  
+}
