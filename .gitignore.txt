@@ -1,3 +1,9 @@
 # Ignore Owl Carousel Files
 
 assets/owl-carousel/*.json
+
+# Ignore json file
+
+*.json
+
+*.JSON
